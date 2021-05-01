@@ -1,0 +1,48 @@
+<!-- - 30 minutes timer and test will be over
+- cannot copy the text
+- click on option, 'Next' button will be enabled
+- 30th question will have Submit button -->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+        <link rel = "stylesheet" href = "style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        
+        <title>Quiz Site</title>
+    </head>
+
+    <body style = "background-color: white;">
+        <h1 class = "greeting">Welcome to the Quiz!</h1>
+
+        <p class = "info">This is a quiz for the users belonging to MIT ADT University</p>
+        
+        <hr style = "border: 1px red solid; width: 40%; position: relative; top: 50px;"/>
+        
+        <div class = "rules">
+            <div class = "rules-inner">
+                <p style = "position: relative; top: -30px; left: 10px; font-size: 20px;">The quiz comes with a set of rules. Kindly follow the guidelines :-</p>
+                <ul>
+                    <li>The quiz will be of 30 minutes. You will have a timer on the top. The test ends when the time runs out.</li>
+                    <li>There are 30 questions.</li>
+                    <li>The questions are not navigable</li>
+                    <li>All the questions are compulsory to answer</li>
+                    <li>There are five options to choose from - Strongly Agree, Agree, Neutral, Disagree and Strongly Disagree</li>
+                    <li>Once an options is clicked, 'Next' button will be enabled.</li>
+                    <li>You will be able to submit the quiz once the last question is answered.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class = "button-container">
+            <button id = "ready-button-id" class = "ready-button" onclick = "startQuiz()">I'm Ready</button>
+        </div>
+
+        <script type= "text/javascript" src = "script.js"></script>
+    </body>
+</html>

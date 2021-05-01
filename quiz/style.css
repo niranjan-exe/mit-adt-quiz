@@ -1,0 +1,108 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #eee;
+}
+
+.greeting {
+    position: relative;
+    top: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.info {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.rules {
+    position: relative;
+    top: 100px;
+}
+
+.rules p {
+    font-size: 20px;
+}
+
+.rules-inner {
+    background-color: #FFFDD0;
+    height: 250px;
+    width: 870px;
+    margin: auto;
+}
+
+.rules-inner ul {
+    position: relative;
+    top: -25px;
+    line-height: 30px;
+}
+
+.button-container {
+    position: relative;
+    top: 150px;
+    height: 50px;
+    width: 150px;
+    margin: auto;
+}
+
+.ready-button {
+    background-color: #ff5555;
+    border: 1px #ff2222 solid;
+    border-radius: 5px;
+    height: 40px;
+    width: 120px;
+    font-size: 18px;
+    color: white;
+}
+
+/* ---------------------- */
+
+label.radio {
+    cursor: pointer
+}
+
+label.radio input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none
+}
+
+label.radio span {
+    padding: 4px 0px;
+    border: 1px solid red;
+    display: inline-block;
+    color: red;
+    width: 100px;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 7px;
+    text-transform: uppercase
+}
+
+label.radio input:checked+span {
+    border-color: red;
+    background-color: red;
+    color: #fff
+}
+
+.ans {
+    margin-left: 36px !important
+}
+
+.btn:focus {
+    outline: 0 !important;
+    box-shadow: none !important
+}
+
+.btn:active {
+    outline: 0 !important;
+    box-shadow: none !important
+}
+
+.opt {
+    display: inline;
+}
